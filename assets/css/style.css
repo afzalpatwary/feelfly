@@ -333,6 +333,8 @@ a:hover { color: #009fd3; }
 @media (max-width: 576px) { .testimonial-wrap .testimonial-item .testimonial-right { padding: 20px 20px !important; } }
 .testimonial-wrap .testimonial-item .testimonial-item-left { border-radius: 16px 0 0 16px; overflow: hidden !important; }
 @media (max-width: 991px) { .testimonial-wrap .testimonial-item .testimonial-item-left { border-radius: 16px 16px 0 0; } }
+.testimonial-wrap .testimonial-item .testimonial-item-left .video { display: none; height: 100%; }
+.testimonial-wrap .testimonial-item .testimonial-item-left iframe { width: 420px; height: 100%; }
 @media (max-width: 991px) { .testimonial-wrap .testimonial-item .testimonial-item-left iframe { min-height: 320px; width: 100% !important; } }
 @media (max-width: 991px) { .testimonial-wrap .testimonial-item .testimonial-item-left img { border-radius: 16px 16px 0 0; } }
 @media (max-width: 991px) { .testimonial-wrap .testimonial-item .testimonial-item-left { width: 100%; }
