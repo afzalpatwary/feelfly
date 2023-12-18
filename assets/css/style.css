@@ -371,6 +371,8 @@ a:hover { color: #009fd3; }
 
 .our-policy-section { padding-top: 160px; }
 .our-policy-section .our-policy-wrap { padding: 70px 116px; }
+@media (max-width: 1200px) { .our-policy-section .our-policy-wrap { padding: 70px 70px; } }
+@media (max-width: 991px) { .our-policy-section .our-policy-wrap { padding: 70px 40px; } }
 .our-policy-section .our-policy-list { gap: 16px; }
 
 .error-404-section { padding-top: 160px; }
