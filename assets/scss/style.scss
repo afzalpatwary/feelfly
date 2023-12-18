@@ -1556,6 +1556,7 @@ a {
         @media (max-width: 1200px) {
             padding: 70px 70px;
         }
+
         @media (max-width: 991px) {
             padding: 70px 40px;
         }
@@ -1732,6 +1733,17 @@ a {
 .faq-wrapper {
     border-radius: 16px;
     padding: 60px 100px;
+
+    @media (max-width: 1200px) {
+        padding: 50px 40px;
+    }
+    @media (max-width: 991px) {
+        padding: 50px 30px;
+    }
+
+    @media (max-width: 767px) {
+        padding: 50px 20px;
+    }
 }
 
 // FAQ PAGE /-END

@@ -408,6 +408,9 @@ a:hover { color: #009fd3; }
 .apps-swiper-paginate button:hover svg * { fill: #fff; }
 
 .faq-wrapper { border-radius: 16px; padding: 60px 100px; }
+@media (max-width: 1200px) { .faq-wrapper { padding: 50px 40px; } }
+@media (max-width: 991px) { .faq-wrapper { padding: 50px 30px; } }
+@media (max-width: 767px) { .faq-wrapper { padding: 50px 20px; } }
 
 .accordion-list .accordion-title { cursor: pointer !important; }
 .accordion-list .accordion-desc { display: grid; grid-template-columns: 20px 1fr; gap: 10px; }
