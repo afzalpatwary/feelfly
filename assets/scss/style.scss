@@ -820,7 +820,8 @@ a {
 
 // BANNER /-START
 .banner {
-    background-image: url(../img/bannerlayer.svg);
+    // background-image: url(../img/bannerlayer.svg);
+    background-image: url(../img/subbanner.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom center;
@@ -1356,6 +1357,12 @@ a {
             border-radius: 0px 16px 16px 0px;
             overflow: hidden !important;
 
+            .fs-2 {
+                @media (max-width:1250px) {
+                    font-size: calc(1rem + .9vw) !important;
+                }
+            }
+
             @media (max-width:991px) {
                 padding: 30px 40px !important;
             }
@@ -1368,6 +1375,23 @@ a {
         .testimonial-item-left {
             border-radius: 16px 0 0 16px;
             overflow: hidden !important;
+
+            @media (max-width:991px) {
+                border-radius: 16px 16px 0 0;
+            }
+
+            iframe {
+                @media (max-width:991px) {
+                    min-height: 320px;
+                    width: 100% !important;
+                }
+            }
+
+            img {
+                @media (max-width:991px) {
+                    border-radius: 16px 16px 0 0;
+                }
+            }
 
             @media (max-width:991px) {
                 width: 100%;
@@ -1915,5 +1939,3 @@ a {
 }
 
 // tour plan /-END
-
-

@@ -232,7 +232,7 @@ a:hover { color: #009fd3; }
 .sidebar-social ul li a img { -webkit-transition: 0.2s all linear; transition: 0.2s all linear; }
 .sidebar-social ul li a img:hover { -webkit-transform: translateY(-2px); transform: translateY(-2px); }
 
-.banner { background-image: url(../img/bannerlayer.svg); background-repeat: no-repeat; background-size: contain; background-position: bottom center; }
+.banner { background-image: url(../img/subbanner.svg); background-repeat: no-repeat; background-size: contain; background-position: bottom center; }
 .banner .banner-wrapper { padding-top: 156px; min-height: 970px; }
 @media (max-width: 550px) { .banner .banner-wrapper { padding-top: 180px; } }
 
@@ -328,9 +328,13 @@ a:hover { color: #009fd3; }
 
 .testimonial-wrap .testimonial-item { border-radius: 16px; }
 .testimonial-wrap .testimonial-item .testimonial-right { padding: 40px 60px; border-radius: 0px 16px 16px 0px; overflow: hidden !important; }
+@media (max-width: 1250px) { .testimonial-wrap .testimonial-item .testimonial-right .fs-2 { font-size: calc(1rem + .9vw) !important; } }
 @media (max-width: 991px) { .testimonial-wrap .testimonial-item .testimonial-right { padding: 30px 40px !important; } }
 @media (max-width: 576px) { .testimonial-wrap .testimonial-item .testimonial-right { padding: 20px 20px !important; } }
 .testimonial-wrap .testimonial-item .testimonial-item-left { border-radius: 16px 0 0 16px; overflow: hidden !important; }
+@media (max-width: 991px) { .testimonial-wrap .testimonial-item .testimonial-item-left { border-radius: 16px 16px 0 0; } }
+@media (max-width: 991px) { .testimonial-wrap .testimonial-item .testimonial-item-left iframe { min-height: 320px; width: 100% !important; } }
+@media (max-width: 991px) { .testimonial-wrap .testimonial-item .testimonial-item-left img { border-radius: 16px 16px 0 0; } }
 @media (max-width: 991px) { .testimonial-wrap .testimonial-item .testimonial-item-left { width: 100%; }
   .testimonial-wrap .testimonial-item .testimonial-item-left img { width: 100%; } }
 .testimonial-wrap .testimonial-item .testimonial-item-left .playbtn { position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%) scale(1); transform: translate(-50%, -50%) scale(1); cursor: pointer; -webkit-transition: 0.3s all linear; transition: 0.3s all linear; }
